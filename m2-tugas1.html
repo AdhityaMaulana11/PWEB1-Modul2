@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; display: flex; justify-content: center; margin-top: 20px;">
+
+    <form action="" method="">
+        <table style="border-collapse: collapse; width: 800px; background-color: #dddddd; padding: 1rem;">
+            <tr>
+                <th colspan="2" style="padding: 10px; text-align: left;">
+                    <h1>Form Pemesanan</h1>
+                </th>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Id Pemesan</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="id_pemesan"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nama Pemesan</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="nama_pemesan"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nomor Identitas</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nomor_identitas"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Tipe Kamar</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">
+                    <select name="tipe_kamar" style="padding: 8px; box-sizing: border-box;" required>
+                        <option value="-">--Pilih--</option>
+                        <option value="standar">STANDAR</option>
+                        <option value="deluxe">DELUXE</option>
+                        <option value="family">FAMILY</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Harga</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="harga_kamar"
+                        style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Tanggal Pesan</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="date" name="tanggal_pesan"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Durasi Menginap</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_tugas"
+                        required style="padding: 8px; box-sizing: border-box;"><span> Hari</span></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Termasuk Breakfast</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">
+                    <input type="checkbox" name="breakfast" required><span> Ya</span>
+                    <input type="checkbox" name="breakfast" required><span> Tidak</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Total Bayar</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="total_bayar"
+                        style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 10px; text-align: center;">
+                    <button type="submit"
+                        style="padding: 10px; box-sizing: border-box; background-color: #586ff0; color: white; border: none; border-radius: 5px; cursor: pointer;">SIMPAN</button>
+                    <button type="reset"
+                        style="padding: 10px; box-sizing: border-box; background-color: #ffd036; border: none; border-radius: 5px; cursor: pointer;">Batal</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

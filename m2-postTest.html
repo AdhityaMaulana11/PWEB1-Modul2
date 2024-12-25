@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tambah Data Nilai Mata Kuliah</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; display: flex; justify-content: center; margin-top: 20px;">
+
+    <form action="m2-2.html" method="POST">
+        <table style="border-collapse: collapse; width: 100%; width: 800px; background-color: #f9f9f9; padding: 1rem;">
+            <tr>
+                <th colspan="2" style="padding: 10px; background-color: #4CAF50; color: white; text-align: left;">Form
+                    Tambah Data Nilai Mata Kuliah</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nama Mata Kuliah</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="nama_matakuliah"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nama Dosen</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="nama_dosen" required
+                        style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">SKS</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="sks" min="1"
+                        max="4" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nama Mahasiswa</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="text" name="nama_mahasiswa"
+                        required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Jumlah Kehadiran</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="jumlah_kehadiran"
+                        min="0" max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai Tugas</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_tugas"
+                        min="0" max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai Quiz</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_quiz" min="0"
+                        max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai UTS</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_uts" min="0"
+                        max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai UAS</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_uas" min="0"
+                        max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai Akhir</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;"><input type="number" name="nilai_akhir"
+                        min="0" max="100" required style="width: 100%; padding: 8px; box-sizing: border-box;"></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">Nilai Huruf</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">
+                    <select name="nilai-huruf" style="width: 100%; padding: 8px; box-sizing: border-box;" required>
+                        <option value="-">Pilih Nilai Huruf</option>
+                        <option value="sangat-baik">A</option>
+                        <option value="cukup-baik">B</option>
+                        <option value="baik">C</option>
+                        <option value="buruk">D</option>
+                        <option value="sangat-buruk">E</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding: 10px; text-align: center;">
+                    <button type="submit"
+                        style="width: 100%; padding: 8px; box-sizing: border-box; background-color: #4CAF50; color: white; border: none; cursor: pointer;">SIMPAN</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
